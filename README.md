@@ -4,6 +4,7 @@
 ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red)
 ![Architecture](https://img.shields.io/badge/Schema-Snowflake-purple)
 ![ETL](https://img.shields.io/badge/Pipeline-ETL-green)
+![Status](https://img.shields.io/badge/Status-Completed-green)
 
 ## 📋 Project Overview
 This project simulates a real-world Data Engineering task for a banking client. The primary objective was to resolve data fragmentation issues caused by heterogeneous data sources (SQL, CSV, Excel) and to optimize the slow reporting process.
