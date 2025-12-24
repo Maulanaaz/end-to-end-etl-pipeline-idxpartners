@@ -7,7 +7,8 @@
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
 ## 📋 Project Overview
-This project simulates a real-world Data Engineering task for a banking client. The primary objective was to resolve data fragmentation issues caused by heterogeneous data sources (SQL, CSV, Excel) and to optimize the slow reporting process.
+This project simulates a real-world Data Engineering task for a banking client, developed as part of the **Project-Based Virtual Internship : Data Engineer at ID/X Partners x Rakamin Academy**.
+. The primary objective was to resolve data fragmentation issues caused by heterogeneous data sources (SQL, CSV, Excel) and to optimize the slow reporting process.
 
 I architected a centralized **Data Warehouse** using a **Snowflake Schema** and orchestrated an automated **ETL (Extract, Transform, Load) pipeline** using Python to ensure data accessibility and quality for the analytics team.
 
