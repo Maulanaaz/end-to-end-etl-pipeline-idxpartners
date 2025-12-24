@@ -22,10 +22,9 @@ I architected a centralized **Data Warehouse** using a **Snowflake Schema** and 
 The Data Warehouse is designed using the **Snowflake Schema** approach to handle the complexity of banking data efficiently.
 
 ![ER Diagram](docs/er_diagram.png)
-*(Please refer to the `docs/` folder for the detailed Entity Relationship Diagram)*
 
 **Schema Details:**
-* **Fact Table:** `fact_transactions` (Contains high-volume transactional data).
+* **Fact Table:** `fact_transactions` (Contains transactional data).
 * **Dimension Tables:** `dim_customer`, `dim_account`, `dim_branch`, `dim_product` (Normalized dimensions to reduce redundancy).
 
 ---
@@ -62,6 +61,8 @@ Banking-Data-Warehouse-ETL/
 │
 ├── sql/
 │   ├── ddl/                   # SQL Scripts for creating Tables (Fact & Dim)
+         ├── create-table-dwh.sql
+         └── create-table-staging.sql
 │   └── sp/                    # Stored Procedures for Daily Reporting automation
 │
 ├── src/                       # Source code for ETL Pipeline
