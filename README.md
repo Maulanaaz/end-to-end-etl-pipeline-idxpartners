@@ -73,7 +73,8 @@ Banking-Data-Warehouse-ETL/
 ├── .gitignore                 # Files and folders to be ignored by Git
 ├── requirements.txt           # Python dependencies (pandas, pyodbc, etc.)
 └── README.md                  # Project Documentation
+```
 
 ## 📬 Contact
-Created by **Maulana Zulfikar Aziz**.
-Connect with me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maulanaaz)
+Created by **Maulana Zulfikar Aziz**
+Connect with me on [LinkedIn](https://www.linkedin.com/in/maulanaaz)
