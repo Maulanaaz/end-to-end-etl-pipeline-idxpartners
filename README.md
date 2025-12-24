@@ -61,10 +61,10 @@ Banking-Data-Warehouse-ETL/
 │
 ├── sql/
 │   ├── ddl/                   # SQL Scripts for creating Tables (Fact & Dim)
-         ├── create-table-dwh.sql
-         └── create-table-staging.sql
+|   |   ├── create-table-dwh.sql
+|   |   └── create-table-staging.sql
 │   └── sp/                    # Stored Procedures for Daily Reporting automation
-│
+│       └── stored-procedures.sql
 ├── src/                       # Source code for ETL Pipeline
 │   ├── __init__.py
 │   ├── extract.py             # Data ingestion from SQL Server & files
