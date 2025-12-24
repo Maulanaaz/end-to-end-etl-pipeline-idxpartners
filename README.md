@@ -64,16 +64,18 @@ Banking-Data-Warehouse-ETL/
 |   |   ├── create-table-dwh.sql
 |   |   └── create-table-staging.sql
 │   └── sp/                    # Stored Procedures for Daily Reporting automation
-│       └── stored-procedures.sql
+│       └── sp-balance-per-customer.sql
+│       └── sp-daily-transaction.sql
 ├── src/                       # Source code for ETL Pipeline
-│   ├── __init__.py
 │   ├── extract.py             # Data ingestion from SQL Server & files
 │   ├── transform.py           # Data cleaning, deduplication, and staging logic
-│   ├── load.py                # Batch loading to Data Warehouse
-│   └── main_pipeline.py       # Orchestration script to run the full flow
+|   ├── main_pipeline.py       # Orchestration script to run the full flow
+|   ├── reporting.py           # Script to run the Stored Procedures
+|   ├── staging.py             # Loading to Staging Area
+│   └── load.py                # Batch loading to Data Warehouse
 │
 ├── .gitignore                 # Files and folders to be ignored by Git
-├── requirements.txt           # Python dependencies (pandas, pyodbc, etc.)
+├── requirements.txt           # Python dependencies (pandas and pyodbc)
 └── README.md                  # Project Documentation
 ```
 
