@@ -76,4 +76,4 @@ Banking-Data-Warehouse-ETL/
 
 ## 📬 Contact
 Created by **Maulana Zulfikar Aziz**.
-Connect with me on [LinkedIn](https://www.linkedin.com/in/maulanaaz).
+Connect with me on ![LinkedIn](https://www.linkedin.com/in/maulanaaz).
